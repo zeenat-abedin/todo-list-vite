@@ -10,7 +10,7 @@ function App() {
   }
 
   function handleSubmit() {
-    if (data.trim !== "") {     
+    if (data.trim() !== "") {     
       setTodoList([...todoList, data])
       setData("")
     }
